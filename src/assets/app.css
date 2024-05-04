@@ -1,0 +1,99 @@
+a[target='_blank']:after {
+  content: '\1F5D7'
+}
+
+/*
+  Hides Sitecore Experience Editor markup,
+  if you run the app in connected mode while the Sitecore cookies
+  are set to edit mode.
+*/
+.scChromeData, .scpm { display: none !important; }
+
+/* 
+  Style for default content block
+*/
+.contentTitle {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+body {
+  font-family: Arial;
+}
+
+.coupon {
+  border: 5px dotted #bbb;
+  width: 80%;
+  border-radius: 15px;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.container {
+  padding: 2px 16px;
+  background-color: #f1f1f1;
+}
+
+.promo {
+  background: #ccc;
+  padding: 3px;
+}
+
+.expire {
+  color: red;
+}
+
+.c-form {
+  width: 50vw;
+  height: 25vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-container{
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+label{
+  font-size: 30px;
+  font-weight: bold;
+}
+input{
+  height: 45px;
+  font-size: 20px;
+  padding: 7px;
+  margin: 30px 0;
+}
+button{
+  width: 120px;
+  height: 45px;
+  border: none;
+  font-size: 20px;
+  background-color: purple;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor:pointer;
+}

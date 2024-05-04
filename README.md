@@ -1,1 +1,3 @@
-# sc-jss-react-giggle
+# to deploy build
+jss deploy files
+jss deploy config
